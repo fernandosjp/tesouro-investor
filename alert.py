@@ -9,23 +9,21 @@ from IPython.display import display, HTML
 import pandas as pd
 import sqlite3
 # Emails
-import email #import sendMail
+#import email #import sendMail
 # Logging
 import logging
 #Others
 import datetime
-
-path = '/home/fernandosjp/Desktop/Fernando/Jupyter Notebooks/'
 
 #Logging
 # create logger with 'alert tesouro'
 logger = logging.getLogger('alert_tesouro')
 logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
-fh = logging.FileHandler('{}alertInvest.log'.format(path))
+fh = logging.FileHandler('alertInvest.log')
 fh.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
-eh = logging.FileHandler('{}alertInvestError.log'.format(path))
+eh = logging.FileHandler('alertInvestError.log')
 eh.setLevel(logging.ERROR)
 # create console handler with a higher log level
 ch = logging.StreamHandler()
@@ -53,7 +51,7 @@ def convertToInt(x):
 
 def saveTask(emailSent):
 	# Connecting to the database file
-	sqlite_file = '{}alertInvest.sqlite'.format(path)  
+	sqlite_file = 'alertInvest.sqlite'  
 	conn = sqlite3.connect(sqlite_file)
 	c = conn.cursor()
 
@@ -115,7 +113,7 @@ if not df.query("taxa>=0.16").empty:
 	logger.info('Condition satisfied!!')
 	try:
 		logger.info('Sending Email...')
-		sendMail.sendEmail(subject, msgText, to, sender = 'Tesouro Invest')
+		print "emial sent"#sendMail.sendEmail(subject, msgText, to, sender = 'Tesouro Invest')
 	except Exception, e:
 		logger.info('Email not sent...')
 	finally:

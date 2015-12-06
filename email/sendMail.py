@@ -8,7 +8,7 @@ from email.MIMEImage import MIMEImage
 from email.MIMEBase import MIMEBase
 from email import Encoders
 from email import encoders
-#from email.utils import COMMASPACE, formatdate
+from email.utils import COMMASPACE, formatdate
 
 def sendEmail(subject, msgText, to, sender = 'Standard Sender', imgNames=None, imagesInMsgBody = False, replyTo=None, maxWidth="600px"):
     """
