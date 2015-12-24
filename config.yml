@@ -1,0 +1,11 @@
+# SMTP settings for email sending. If port is not specified, the default
+# value is 25. Provide the username and password if necessary.
+smtp:
+    server: "smtp.gmail.com"
+    port: 587
+    username: "fernandosjp"
+    password: "REMOVED"
+
+    from: "REMOVED"
+    to: "REMOVED"
+
