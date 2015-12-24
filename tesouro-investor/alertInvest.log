@@ -1,0 +1,1053 @@
+2015-10-29 23:56:29,639 - alert_tesouro - INFO - Opening browser
+2015-10-29 23:56:29,642 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-29 23:56:40,508 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-29 23:56:40,694 - alert_tesouro - INFO - Getting tables from html
+2015-10-29 23:56:40,695 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-29 23:56:40,760 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-29 23:56:40,775 - alert_tesouro - INFO - Check condition
+2015-10-29 23:56:40,779 - alert_tesouro - INFO - No bonds today!!
+2015-10-29 23:56:40,779 - alert_tesouro - INFO - Saving task in DB...
+2015-10-29 23:56:40,780 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 00:02:44,666 - alert_tesouro - INFO - Opening browser
+2015-10-30 00:02:44,670 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:03:02,393 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:03:02,794 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 00:03:02,795 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 00:03:02,863 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 00:03:02,878 - alert_tesouro - INFO - Check condition
+2015-10-30 00:03:02,882 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 00:03:02,882 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 00:03:02,883 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 00:20:33,402 - alert_tesouro - INFO - Opening browser
+2015-10-30 00:20:33,424 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:20:33,994 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:20:34,253 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 00:20:34,254 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 00:20:34,452 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 00:20:34,476 - alert_tesouro - INFO - Check condition
+2015-10-30 00:20:34,481 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 00:20:34,482 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 00:20:34,482 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 00:44:33,846 - alert_tesouro - INFO - Opening browser
+2015-10-30 00:44:33,849 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:44:34,261 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:44:34,398 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 00:44:34,399 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 00:44:34,516 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 00:44:34,531 - alert_tesouro - INFO - Check condition
+2015-10-30 00:44:34,537 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 00:44:34,537 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 00:44:34,538 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 00:50:11,317 - alert_tesouro - INFO - Opening browser
+2015-10-30 00:50:11,320 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:50:12,351 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:50:12,539 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 00:50:12,540 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 00:50:12,612 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 00:50:12,627 - alert_tesouro - INFO - Check condition
+2015-10-30 00:50:12,631 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 00:50:12,631 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 00:50:12,632 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 00:55:34,339 - alert_tesouro - INFO - Opening browser
+2015-10-30 00:55:34,371 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:55:34,812 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:55:35,003 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 00:55:35,004 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 00:55:35,065 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 00:55:35,079 - alert_tesouro - INFO - Check condition
+2015-10-30 00:55:35,083 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 00:55:35,083 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 00:55:35,084 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 00:56:08,714 - alert_tesouro - INFO - Opening browser
+2015-10-30 00:56:08,717 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:56:09,252 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 00:56:09,422 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 00:56:09,424 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 00:56:09,485 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 00:56:09,501 - alert_tesouro - INFO - Check condition
+2015-10-30 00:56:09,505 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 00:56:09,505 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 00:56:09,505 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 01:01:49,749 - alert_tesouro - INFO - Opening browser
+2015-10-30 01:01:49,752 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:01:51,109 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:01:51,257 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 01:01:51,258 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 01:01:51,319 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 01:01:51,333 - alert_tesouro - INFO - Check condition
+2015-10-30 01:01:51,337 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 01:01:51,337 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 01:01:51,338 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 01:05:14,995 - alert_tesouro - INFO - Opening browser
+2015-10-30 01:05:14,998 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:05:15,353 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:05:15,594 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 01:05:15,595 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 01:05:15,656 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 01:05:15,672 - alert_tesouro - INFO - Check condition
+2015-10-30 01:05:15,676 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 01:05:15,676 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 01:05:15,677 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 01:06:02,235 - alert_tesouro - INFO - Opening browser
+2015-10-30 01:06:02,238 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:06:04,119 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:06:04,296 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 01:06:04,297 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 01:06:04,360 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 01:06:04,375 - alert_tesouro - INFO - Check condition
+2015-10-30 01:06:04,380 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 01:06:04,380 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 01:06:04,380 - alert_tesouro - INFO - Successfully inserted in database!
+2015-10-30 01:07:02,422 - alert_tesouro - INFO - Opening browser
+2015-10-30 01:07:02,425 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:08:02,400 - alert_tesouro - INFO - Opening browser
+2015-10-30 01:08:02,431 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 01:09:01,623 - alert_tesouro - INFO - Opening browser
+2015-10-30 01:09:01,626 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 02:00:01,940 - alert_tesouro - INFO - Opening browser
+2015-10-30 02:00:01,976 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 04:00:02,590 - alert_tesouro - INFO - Opening browser
+2015-10-30 04:00:02,593 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 06:00:01,803 - alert_tesouro - INFO - Opening browser
+2015-10-30 06:00:01,806 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 08:00:02,267 - alert_tesouro - INFO - Opening browser
+2015-10-30 08:00:02,269 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 08:00:02,924 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-10-30 08:00:03,079 - alert_tesouro - INFO - Getting tables from html
+2015-10-30 08:00:03,080 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-10-30 08:00:03,138 - alert_tesouro - INFO - Correcting Bond Yields
+2015-10-30 08:00:03,153 - alert_tesouro - INFO - Check condition
+2015-10-30 08:00:03,157 - alert_tesouro - INFO - No bonds today!!
+2015-10-30 08:00:03,157 - alert_tesouro - INFO - Saving task in DB...
+2015-10-30 08:00:03,157 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-03 00:00:06,212 - alert_tesouro - INFO - Opening browser
+2015-11-03 00:00:06,328 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-03 00:00:06,920 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-03 00:00:07,014 - alert_tesouro - INFO - Getting tables from html
+2015-11-03 00:00:07,015 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-03 22:00:07,432 - alert_tesouro - INFO - Opening browser
+2015-11-03 22:00:07,465 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-03 22:00:07,813 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-03 22:00:08,376 - alert_tesouro - INFO - Getting tables from html
+2015-11-03 22:00:08,377 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-03 22:00:09,126 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-03 22:00:09,165 - alert_tesouro - INFO - Check condition
+2015-11-03 22:00:09,175 - alert_tesouro - INFO - No bonds today!!
+2015-11-03 22:00:09,175 - alert_tesouro - INFO - Saving task in DB...
+2015-11-03 22:00:09,274 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-04 20:00:20,126 - alert_tesouro - INFO - Opening browser
+2015-11-04 20:00:20,381 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-04 20:00:20,786 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-04 20:00:20,957 - alert_tesouro - INFO - Getting tables from html
+2015-11-04 20:00:20,959 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-04 20:00:26,588 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-04 20:00:26,648 - alert_tesouro - INFO - Check condition
+2015-11-04 20:00:26,728 - alert_tesouro - INFO - No bonds today!!
+2015-11-04 20:00:26,729 - alert_tesouro - INFO - Saving task in DB...
+2015-11-04 20:00:27,019 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-04 22:00:11,761 - alert_tesouro - INFO - Opening browser
+2015-11-04 22:00:11,851 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-04 22:00:12,114 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-04 22:00:12,544 - alert_tesouro - INFO - Getting tables from html
+2015-11-04 22:00:12,545 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-04 22:00:13,578 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-04 22:00:13,616 - alert_tesouro - INFO - Check condition
+2015-11-04 22:00:13,625 - alert_tesouro - INFO - No bonds today!!
+2015-11-04 22:00:13,626 - alert_tesouro - INFO - Saving task in DB...
+2015-11-04 22:00:13,695 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-05 00:00:11,950 - alert_tesouro - INFO - Opening browser
+2015-11-05 00:00:12,039 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 00:00:12,304 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 00:00:12,450 - alert_tesouro - INFO - Getting tables from html
+2015-11-05 00:00:12,452 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-05 00:00:13,356 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-05 00:00:13,401 - alert_tesouro - INFO - Check condition
+2015-11-05 00:00:13,430 - alert_tesouro - INFO - No bonds today!!
+2015-11-05 00:00:13,430 - alert_tesouro - INFO - Saving task in DB...
+2015-11-05 00:00:13,506 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-05 10:00:31,083 - alert_tesouro - INFO - Opening browser
+2015-11-05 10:00:31,277 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 10:00:31,650 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 10:00:31,819 - alert_tesouro - INFO - Getting tables from html
+2015-11-05 10:00:31,820 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-05 10:00:33,621 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-05 10:00:33,635 - alert_tesouro - INFO - Check condition
+2015-11-05 10:00:33,685 - alert_tesouro - INFO - No bonds today!!
+2015-11-05 10:00:33,685 - alert_tesouro - INFO - Saving task in DB...
+2015-11-05 10:00:33,833 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-05 20:00:12,007 - alert_tesouro - INFO - Opening browser
+2015-11-05 20:00:12,150 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 20:00:12,479 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 20:00:12,608 - alert_tesouro - INFO - Getting tables from html
+2015-11-05 20:00:12,610 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-05 20:00:13,590 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-05 20:00:13,611 - alert_tesouro - INFO - Check condition
+2015-11-05 20:00:13,618 - alert_tesouro - INFO - No bonds today!!
+2015-11-05 20:00:13,618 - alert_tesouro - INFO - Saving task in DB...
+2015-11-05 20:00:13,679 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-05 22:00:10,178 - alert_tesouro - INFO - Opening browser
+2015-11-05 22:00:10,248 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 22:00:10,637 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-05 22:00:10,846 - alert_tesouro - INFO - Getting tables from html
+2015-11-05 22:00:10,847 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-05 22:00:11,684 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-05 22:00:11,715 - alert_tesouro - INFO - Check condition
+2015-11-05 22:00:11,724 - alert_tesouro - INFO - No bonds today!!
+2015-11-05 22:00:11,724 - alert_tesouro - INFO - Saving task in DB...
+2015-11-05 22:00:11,769 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-07 00:00:12,630 - alert_tesouro - INFO - Opening browser
+2015-11-07 00:00:12,721 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-07 00:00:13,388 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-07 00:00:13,595 - alert_tesouro - INFO - Getting tables from html
+2015-11-07 00:00:13,596 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-07 00:00:14,503 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-07 00:00:14,538 - alert_tesouro - INFO - Check condition
+2015-11-07 00:00:14,548 - alert_tesouro - INFO - No bonds today!!
+2015-11-07 00:00:14,548 - alert_tesouro - INFO - Saving task in DB...
+2015-11-07 00:00:14,597 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-10 22:00:09,451 - alert_tesouro - INFO - Opening browser
+2015-11-10 22:00:09,526 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-10 22:01:40,274 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-10 22:01:56,252 - alert_tesouro - INFO - Getting tables from html
+2015-11-10 22:01:56,253 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-10 22:01:57,512 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-10 22:01:57,544 - alert_tesouro - INFO - Check condition
+2015-11-10 22:01:57,552 - alert_tesouro - INFO - No bonds today!!
+2015-11-10 22:01:57,552 - alert_tesouro - INFO - Saving task in DB...
+2015-11-10 22:01:57,629 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-11 00:00:08,003 - alert_tesouro - INFO - Opening browser
+2015-11-11 00:00:08,043 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-11 00:00:18,574 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-11 00:00:18,961 - alert_tesouro - INFO - Getting tables from html
+2015-11-11 00:00:18,962 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-11 00:00:19,819 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-11 00:00:19,836 - alert_tesouro - INFO - Check condition
+2015-11-11 00:00:19,905 - alert_tesouro - INFO - No bonds today!!
+2015-11-11 00:00:19,905 - alert_tesouro - INFO - Saving task in DB...
+2015-11-11 00:00:19,970 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-11 20:00:12,218 - alert_tesouro - INFO - Opening browser
+2015-11-11 20:00:12,371 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-11 20:00:13,357 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-11 20:00:13,489 - alert_tesouro - INFO - Getting tables from html
+2015-11-11 20:00:13,490 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-11 20:00:14,601 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-11 20:00:14,619 - alert_tesouro - INFO - Check condition
+2015-11-11 20:00:14,625 - alert_tesouro - INFO - No bonds today!!
+2015-11-11 20:00:14,625 - alert_tesouro - INFO - Saving task in DB...
+2015-11-11 20:00:14,696 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-11 22:00:10,327 - alert_tesouro - INFO - Opening browser
+2015-11-11 22:00:10,394 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-11 22:00:10,851 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-11 22:00:11,049 - alert_tesouro - INFO - Getting tables from html
+2015-11-11 22:00:11,050 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-11 22:00:12,055 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-11 22:00:12,079 - alert_tesouro - INFO - Check condition
+2015-11-11 22:00:12,085 - alert_tesouro - INFO - No bonds today!!
+2015-11-11 22:00:12,085 - alert_tesouro - INFO - Saving task in DB...
+2015-11-11 22:00:12,138 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-12 00:00:11,212 - alert_tesouro - INFO - Opening browser
+2015-11-12 00:00:11,365 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-12 00:00:13,972 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-12 00:00:14,114 - alert_tesouro - INFO - Getting tables from html
+2015-11-12 00:00:14,115 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-12 00:00:14,973 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-12 00:00:14,997 - alert_tesouro - INFO - Check condition
+2015-11-12 00:00:15,004 - alert_tesouro - INFO - No bonds today!!
+2015-11-12 00:00:15,004 - alert_tesouro - INFO - Saving task in DB...
+2015-11-12 00:00:15,057 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-14 16:57:20,050 - alert_tesouro - INFO - Opening browser
+2015-11-14 16:57:20,064 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-14 16:57:21,408 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-14 16:57:21,563 - alert_tesouro - INFO - Getting tables from html
+2015-11-14 16:57:21,564 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-14 16:57:22,506 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-14 16:57:22,547 - alert_tesouro - INFO - Check condition
+2015-11-14 16:57:22,555 - alert_tesouro - INFO - No bonds today!!
+2015-11-14 16:57:22,555 - alert_tesouro - INFO - Saving task in DB...
+2015-11-14 16:57:22,589 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-14 18:00:08,624 - alert_tesouro - INFO - Opening browser
+2015-11-14 18:00:08,704 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-14 18:00:09,731 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-14 18:00:09,937 - alert_tesouro - INFO - Getting tables from html
+2015-11-14 18:00:09,938 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-14 18:00:10,630 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-14 18:00:10,663 - alert_tesouro - INFO - Check condition
+2015-11-14 18:00:10,672 - alert_tesouro - INFO - No bonds today!!
+2015-11-14 18:00:10,673 - alert_tesouro - INFO - Saving task in DB...
+2015-11-14 18:00:10,758 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-15 22:00:09,725 - alert_tesouro - INFO - Opening browser
+2015-11-15 22:00:09,772 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-15 22:00:15,890 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-15 22:00:16,256 - alert_tesouro - INFO - Getting tables from html
+2015-11-15 22:00:16,257 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-15 22:00:17,121 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-15 22:00:17,186 - alert_tesouro - INFO - Check condition
+2015-11-15 22:00:17,197 - alert_tesouro - INFO - No bonds today!!
+2015-11-15 22:00:17,197 - alert_tesouro - INFO - Saving task in DB...
+2015-11-15 22:00:17,237 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-16 00:00:12,700 - alert_tesouro - INFO - Opening browser
+2015-11-16 00:00:12,868 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-16 00:00:13,723 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-16 00:00:14,063 - alert_tesouro - INFO - Getting tables from html
+2015-11-16 00:00:14,064 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-16 00:00:14,828 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-16 00:00:14,861 - alert_tesouro - INFO - Check condition
+2015-11-16 00:00:14,870 - alert_tesouro - INFO - No bonds today!!
+2015-11-16 00:00:14,870 - alert_tesouro - INFO - Saving task in DB...
+2015-11-16 00:00:14,944 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-16 02:00:11,386 - alert_tesouro - INFO - Opening browser
+2015-11-16 02:00:11,566 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-16 02:00:21,831 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-16 02:00:22,158 - alert_tesouro - INFO - Getting tables from html
+2015-11-16 02:00:22,159 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-16 02:00:23,558 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-16 02:00:23,588 - alert_tesouro - INFO - Check condition
+2015-11-16 02:00:23,597 - alert_tesouro - INFO - No bonds today!!
+2015-11-16 02:00:23,597 - alert_tesouro - INFO - Saving task in DB...
+2015-11-16 02:00:23,675 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-16 10:00:40,230 - alert_tesouro - INFO - Opening browser
+2015-11-16 10:00:40,450 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-17 10:00:14,953 - alert_tesouro - INFO - Opening browser
+2015-11-17 10:00:15,027 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-17 10:00:15,947 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-17 10:00:16,313 - alert_tesouro - INFO - Getting tables from html
+2015-11-17 10:00:16,314 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-17 10:00:17,503 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-17 10:00:17,531 - alert_tesouro - INFO - Check condition
+2015-11-17 10:00:17,539 - alert_tesouro - INFO - No bonds today!!
+2015-11-17 10:00:17,540 - alert_tesouro - INFO - Saving task in DB...
+2015-11-17 10:00:17,608 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-19 00:00:14,725 - alert_tesouro - INFO - Opening browser
+2015-11-19 00:00:14,879 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-19 00:00:15,125 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-19 00:00:15,273 - alert_tesouro - INFO - Getting tables from html
+2015-11-19 00:00:15,274 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-19 00:00:16,597 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-19 00:00:16,614 - alert_tesouro - INFO - Check condition
+2015-11-19 00:00:16,620 - alert_tesouro - INFO - No bonds today!!
+2015-11-19 00:00:16,620 - alert_tesouro - INFO - Saving task in DB...
+2015-11-19 00:00:16,692 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-21 12:00:15,268 - alert_tesouro - INFO - Opening browser
+2015-11-21 12:00:15,426 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-21 12:00:15,998 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-21 12:00:16,139 - alert_tesouro - INFO - Getting tables from html
+2015-11-21 12:00:16,140 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-21 12:00:17,051 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-21 12:00:17,084 - alert_tesouro - INFO - Check condition
+2015-11-21 12:00:17,091 - alert_tesouro - INFO - No bonds today!!
+2015-11-21 12:00:17,091 - alert_tesouro - INFO - Saving task in DB...
+2015-11-21 12:00:17,186 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-22 18:00:22,093 - alert_tesouro - INFO - Opening browser
+2015-11-22 18:00:22,315 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-22 18:00:22,651 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-22 18:00:22,798 - alert_tesouro - INFO - Getting tables from html
+2015-11-22 18:00:22,799 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-22 18:00:24,888 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-22 18:00:24,933 - alert_tesouro - INFO - Check condition
+2015-11-22 18:00:24,943 - alert_tesouro - INFO - No bonds today!!
+2015-11-22 18:00:24,944 - alert_tesouro - INFO - Saving task in DB...
+2015-11-22 18:00:25,077 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-22 20:00:16,201 - alert_tesouro - INFO - Opening browser
+2015-11-22 20:00:16,542 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-22 20:00:20,476 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-22 22:00:10,764 - alert_tesouro - INFO - Opening browser
+2015-11-22 22:00:11,409 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-22 22:00:11,898 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-22 22:00:12,037 - alert_tesouro - INFO - Getting tables from html
+2015-11-22 22:00:12,038 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-22 22:00:12,881 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-22 22:00:12,921 - alert_tesouro - INFO - Check condition
+2015-11-22 22:00:12,995 - alert_tesouro - INFO - No bonds today!!
+2015-11-22 22:00:12,996 - alert_tesouro - INFO - Saving task in DB...
+2015-11-22 22:00:13,094 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-23 00:00:09,107 - alert_tesouro - INFO - Opening browser
+2015-11-23 00:00:09,188 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-23 00:00:09,721 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-23 00:00:09,887 - alert_tesouro - INFO - Getting tables from html
+2015-11-23 00:00:09,888 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-23 00:00:10,734 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-23 00:00:10,773 - alert_tesouro - INFO - Check condition
+2015-11-23 00:00:10,804 - alert_tesouro - INFO - No bonds today!!
+2015-11-23 00:00:10,804 - alert_tesouro - INFO - Saving task in DB...
+2015-11-23 00:00:10,829 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-23 02:00:08,669 - alert_tesouro - INFO - Opening browser
+2015-11-23 02:00:08,746 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-23 02:00:09,544 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-23 02:00:09,708 - alert_tesouro - INFO - Getting tables from html
+2015-11-23 02:00:09,709 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-23 02:00:10,475 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-23 02:00:10,496 - alert_tesouro - INFO - Check condition
+2015-11-23 02:00:10,502 - alert_tesouro - INFO - No bonds today!!
+2015-11-23 02:00:10,533 - alert_tesouro - INFO - Saving task in DB...
+2015-11-23 02:00:10,559 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-23 20:00:12,987 - alert_tesouro - INFO - Opening browser
+2015-11-23 20:00:13,135 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-23 20:00:13,984 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-23 20:00:14,168 - alert_tesouro - INFO - Getting tables from html
+2015-11-23 20:00:14,169 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-23 20:00:15,015 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-23 20:00:15,052 - alert_tesouro - INFO - Check condition
+2015-11-23 20:00:15,060 - alert_tesouro - INFO - No bonds today!!
+2015-11-23 20:00:15,061 - alert_tesouro - INFO - Saving task in DB...
+2015-11-23 20:00:15,132 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-24 00:00:11,263 - alert_tesouro - INFO - Opening browser
+2015-11-24 00:00:11,330 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-24 00:00:12,196 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-24 00:00:12,337 - alert_tesouro - INFO - Getting tables from html
+2015-11-24 00:00:12,338 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-24 00:00:14,013 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-24 00:00:14,029 - alert_tesouro - INFO - Check condition
+2015-11-24 00:00:14,036 - alert_tesouro - INFO - No bonds today!!
+2015-11-24 00:00:14,036 - alert_tesouro - INFO - Saving task in DB...
+2015-11-24 00:00:14,335 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-24 22:00:15,625 - alert_tesouro - INFO - Opening browser
+2015-11-24 22:00:16,039 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-24 22:00:16,885 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-24 22:00:17,108 - alert_tesouro - INFO - Getting tables from html
+2015-11-24 22:00:17,109 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-24 22:00:18,343 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-24 22:00:18,380 - alert_tesouro - INFO - Check condition
+2015-11-24 22:00:18,392 - alert_tesouro - INFO - No bonds today!!
+2015-11-24 22:00:18,392 - alert_tesouro - INFO - Saving task in DB...
+2015-11-24 22:00:18,481 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-25 00:00:10,044 - alert_tesouro - INFO - Opening browser
+2015-11-25 00:00:10,119 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-25 00:00:10,598 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-25 00:00:10,768 - alert_tesouro - INFO - Getting tables from html
+2015-11-25 00:00:10,769 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-25 00:00:11,583 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-25 00:00:11,644 - alert_tesouro - INFO - Check condition
+2015-11-25 00:00:11,649 - alert_tesouro - INFO - No bonds today!!
+2015-11-25 00:00:11,649 - alert_tesouro - INFO - Saving task in DB...
+2015-11-25 00:00:12,071 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-25 02:00:02,422 - alert_tesouro - INFO - Opening browser
+2015-11-25 02:00:02,425 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-25 02:00:03,660 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-25 02:00:03,814 - alert_tesouro - INFO - Getting tables from html
+2015-11-25 02:00:03,815 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-25 02:00:03,873 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-25 02:00:03,888 - alert_tesouro - INFO - Check condition
+2015-11-25 02:00:03,893 - alert_tesouro - INFO - No bonds today!!
+2015-11-25 02:00:03,893 - alert_tesouro - INFO - Saving task in DB...
+2015-11-25 02:00:03,893 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-26 00:00:07,458 - alert_tesouro - INFO - Opening browser
+2015-11-26 00:00:07,523 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-26 00:00:09,069 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-26 00:00:09,320 - alert_tesouro - INFO - Getting tables from html
+2015-11-26 00:00:09,322 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-26 00:00:09,856 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-26 00:00:09,870 - alert_tesouro - INFO - Check condition
+2015-11-26 00:00:09,876 - alert_tesouro - INFO - No bonds today!!
+2015-11-26 00:00:09,876 - alert_tesouro - INFO - Saving task in DB...
+2015-11-26 00:00:09,917 - alert_tesouro - INFO - Successfully inserted in database!
+2015-11-30 02:00:14,375 - alert_tesouro - INFO - Opening browser
+2015-11-30 02:00:14,519 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-30 02:00:15,168 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-11-30 02:00:15,326 - alert_tesouro - INFO - Getting tables from html
+2015-11-30 02:00:15,327 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-11-30 02:00:16,258 - alert_tesouro - INFO - Correcting Bond Yields
+2015-11-30 02:00:16,296 - alert_tesouro - INFO - Check condition
+2015-11-30 02:00:16,305 - alert_tesouro - INFO - Condition satisfied!!
+2015-11-30 02:00:16,305 - alert_tesouro - INFO - Sending Email...
+2015-11-30 02:00:22,935 - alert_tesouro - INFO - Email sent!
+2015-11-30 02:00:22,936 - alert_tesouro - INFO - Saving task in DB...
+2015-11-30 02:00:22,997 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-01 00:00:07,185 - alert_tesouro - INFO - Opening browser
+2015-12-01 00:00:07,326 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-01 00:00:07,719 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-01 00:00:07,836 - alert_tesouro - INFO - Getting tables from html
+2015-12-01 00:00:07,837 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-01 00:00:08,435 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-01 00:00:08,453 - alert_tesouro - INFO - Check condition
+2015-12-01 00:00:08,458 - alert_tesouro - INFO - Condition satisfied!!
+2015-12-01 00:00:08,459 - alert_tesouro - INFO - Sending Email...
+2015-12-01 00:00:11,407 - alert_tesouro - INFO - Email sent!
+2015-12-01 00:00:11,407 - alert_tesouro - INFO - Saving task in DB...
+2015-12-01 00:00:11,474 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-02 00:00:05,904 - alert_tesouro - INFO - Opening browser
+2015-12-02 00:00:06,007 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 00:00:06,593 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 00:00:06,730 - alert_tesouro - INFO - Getting tables from html
+2015-12-02 00:00:06,731 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-02 00:00:07,476 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-02 00:00:07,512 - alert_tesouro - INFO - Check condition
+2015-12-02 00:00:07,520 - alert_tesouro - INFO - Condition satisfied!!
+2015-12-02 00:00:07,521 - alert_tesouro - INFO - Sending Email...
+2015-12-02 00:00:10,613 - alert_tesouro - INFO - Email sent!
+2015-12-02 00:00:10,614 - alert_tesouro - INFO - Saving task in DB...
+2015-12-02 00:00:10,664 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-02 02:00:07,389 - alert_tesouro - INFO - Opening browser
+2015-12-02 02:00:07,424 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 02:00:09,098 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 02:00:09,263 - alert_tesouro - INFO - Getting tables from html
+2015-12-02 02:00:09,264 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-02 02:00:10,017 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-02 02:00:10,049 - alert_tesouro - INFO - Check condition
+2015-12-02 02:00:10,056 - alert_tesouro - INFO - Condition satisfied!!
+2015-12-02 02:00:10,057 - alert_tesouro - INFO - Sending Email...
+2015-12-02 02:00:12,827 - alert_tesouro - INFO - Email sent!
+2015-12-02 02:00:12,827 - alert_tesouro - INFO - Saving task in DB...
+2015-12-02 02:00:12,829 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-02 14:00:11,259 - alert_tesouro - INFO - Opening browser
+2015-12-02 14:00:11,349 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 14:00:12,127 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 14:00:12,265 - alert_tesouro - INFO - Getting tables from html
+2015-12-02 14:00:12,266 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-02 14:00:13,435 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-02 14:00:13,462 - alert_tesouro - INFO - Check condition
+2015-12-02 14:00:13,489 - alert_tesouro - INFO - Condition satisfied!!
+2015-12-02 14:00:13,490 - alert_tesouro - INFO - Sending Email...
+2015-12-02 14:00:16,727 - alert_tesouro - INFO - Email sent!
+2015-12-02 14:00:16,728 - alert_tesouro - INFO - Saving task in DB...
+2015-12-02 14:00:16,792 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-02 16:00:10,289 - alert_tesouro - INFO - Opening browser
+2015-12-02 16:00:10,357 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 16:00:11,352 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-02 16:00:11,536 - alert_tesouro - INFO - Getting tables from html
+2015-12-02 16:00:11,537 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-02 16:00:12,386 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-02 16:00:12,410 - alert_tesouro - INFO - Check condition
+2015-12-02 16:00:12,420 - alert_tesouro - INFO - No bonds today!!
+2015-12-02 16:00:12,421 - alert_tesouro - INFO - Saving task in DB...
+2015-12-02 16:00:12,469 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-03 12:00:09,038 - alert_tesouro - INFO - Opening browser
+2015-12-03 12:00:09,102 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 12:00:09,712 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 12:00:09,836 - alert_tesouro - INFO - Getting tables from html
+2015-12-03 12:00:09,837 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-03 12:00:10,578 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-03 12:00:10,591 - alert_tesouro - INFO - Check condition
+2015-12-03 12:00:10,597 - alert_tesouro - INFO - No bonds today!!
+2015-12-03 12:00:10,597 - alert_tesouro - INFO - Saving task in DB...
+2015-12-03 12:00:10,650 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-03 14:00:02,438 - alert_tesouro - INFO - Opening browser
+2015-12-03 14:00:02,470 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 14:00:03,124 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 14:00:03,274 - alert_tesouro - INFO - Getting tables from html
+2015-12-03 14:00:03,300 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-03 14:00:03,357 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-03 14:00:03,366 - alert_tesouro - INFO - Check condition
+2015-12-03 14:00:03,370 - alert_tesouro - INFO - No bonds today!!
+2015-12-03 14:00:03,370 - alert_tesouro - INFO - Saving task in DB...
+2015-12-03 14:00:03,371 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-03 16:00:13,244 - alert_tesouro - INFO - Opening browser
+2015-12-03 16:00:13,420 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 16:00:14,298 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 16:00:14,423 - alert_tesouro - INFO - Getting tables from html
+2015-12-03 16:00:14,424 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-03 16:00:15,206 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-03 16:00:15,222 - alert_tesouro - INFO - Check condition
+2015-12-03 16:00:15,229 - alert_tesouro - INFO - No bonds today!!
+2015-12-03 16:00:15,229 - alert_tesouro - INFO - Saving task in DB...
+2015-12-03 16:00:15,333 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-03 18:00:11,208 - alert_tesouro - INFO - Opening browser
+2015-12-03 18:00:11,374 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 18:00:12,361 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 18:00:12,542 - alert_tesouro - INFO - Getting tables from html
+2015-12-03 18:00:12,543 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-03 18:00:13,224 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-03 18:00:13,241 - alert_tesouro - INFO - Check condition
+2015-12-03 18:00:13,246 - alert_tesouro - INFO - No bonds today!!
+2015-12-03 18:00:13,246 - alert_tesouro - INFO - Saving task in DB...
+2015-12-03 18:00:13,330 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-03 20:00:10,384 - alert_tesouro - INFO - Opening browser
+2015-12-03 20:00:10,475 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 20:00:11,437 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 20:00:11,660 - alert_tesouro - INFO - Getting tables from html
+2015-12-03 20:00:11,661 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-03 20:00:12,345 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-03 20:00:12,379 - alert_tesouro - INFO - Check condition
+2015-12-03 20:00:12,388 - alert_tesouro - INFO - No bonds today!!
+2015-12-03 20:00:12,388 - alert_tesouro - INFO - Saving task in DB...
+2015-12-03 20:00:12,473 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-03 22:00:02,411 - alert_tesouro - INFO - Opening browser
+2015-12-03 22:00:02,438 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 22:00:02,797 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-03 22:00:03,059 - alert_tesouro - INFO - Getting tables from html
+2015-12-03 22:00:03,060 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-03 22:00:03,120 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-03 22:00:03,135 - alert_tesouro - INFO - Check condition
+2015-12-03 22:00:03,138 - alert_tesouro - INFO - No bonds today!!
+2015-12-03 22:00:03,139 - alert_tesouro - INFO - Saving task in DB...
+2015-12-03 22:00:03,139 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-04 00:00:02,361 - alert_tesouro - INFO - Opening browser
+2015-12-04 00:00:02,426 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-04 00:00:03,640 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-04 00:00:03,672 - alert_tesouro - INFO - Getting tables from html
+2015-12-04 00:00:03,673 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-04 10:00:11,335 - alert_tesouro - INFO - Opening browser
+2015-12-04 10:00:11,512 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-04 10:00:12,553 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-04 10:00:12,669 - alert_tesouro - INFO - Getting tables from html
+2015-12-04 10:00:12,671 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-04 10:00:13,375 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-04 10:00:13,386 - alert_tesouro - INFO - Check condition
+2015-12-04 10:00:13,393 - alert_tesouro - INFO - No bonds today!!
+2015-12-04 10:00:13,393 - alert_tesouro - INFO - Saving task in DB...
+2015-12-04 10:00:13,480 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-05 22:00:11,058 - alert_tesouro - INFO - Opening browser
+2015-12-05 22:00:11,145 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-05 22:00:11,649 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-05 22:00:11,809 - alert_tesouro - INFO - Getting tables from html
+2015-12-05 22:00:11,810 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-05 22:00:12,609 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-05 22:00:12,629 - alert_tesouro - INFO - Check condition
+2015-12-05 22:00:12,636 - alert_tesouro - INFO - No bonds today!!
+2015-12-05 22:00:12,637 - alert_tesouro - INFO - Saving task in DB...
+2015-12-05 22:00:12,714 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-06 00:00:02,612 - alert_tesouro - INFO - Opening browser
+2015-12-06 00:00:02,648 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 00:00:03,315 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 00:00:03,448 - alert_tesouro - INFO - Getting tables from html
+2015-12-06 00:00:03,450 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-06 00:00:03,529 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-06 00:00:03,548 - alert_tesouro - INFO - Check condition
+2015-12-06 00:00:03,554 - alert_tesouro - INFO - No bonds today!!
+2015-12-06 00:00:03,554 - alert_tesouro - INFO - Saving task in DB...
+2015-12-06 00:00:03,555 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-06 02:00:02,591 - alert_tesouro - INFO - Opening browser
+2015-12-06 02:00:02,620 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 02:00:03,160 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 02:00:03,329 - alert_tesouro - INFO - Getting tables from html
+2015-12-06 02:00:03,330 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-06 02:00:03,397 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-06 02:00:03,415 - alert_tesouro - INFO - Check condition
+2015-12-06 02:00:03,419 - alert_tesouro - INFO - No bonds today!!
+2015-12-06 02:00:03,420 - alert_tesouro - INFO - Saving task in DB...
+2015-12-06 02:00:03,420 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-06 14:00:12,210 - alert_tesouro - INFO - Opening browser
+2015-12-06 14:00:12,377 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 14:00:12,894 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 14:00:13,039 - alert_tesouro - INFO - Getting tables from html
+2015-12-06 14:00:13,064 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-06 14:00:13,737 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-06 14:00:13,769 - alert_tesouro - INFO - Check condition
+2015-12-06 14:00:13,777 - alert_tesouro - INFO - No bonds today!!
+2015-12-06 14:00:13,777 - alert_tesouro - INFO - Saving task in DB...
+2015-12-06 14:00:13,855 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-06 20:00:08,893 - alert_tesouro - INFO - Opening browser
+2015-12-06 20:00:08,947 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:00:09,321 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:00:09,465 - alert_tesouro - INFO - Getting tables from html
+2015-12-06 20:00:09,466 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-06 20:00:10,376 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-06 20:00:10,413 - alert_tesouro - INFO - Check condition
+2015-12-06 20:00:10,439 - alert_tesouro - INFO - No bonds today!!
+2015-12-06 20:00:10,440 - alert_tesouro - INFO - Saving task in DB...
+2015-12-06 20:00:10,493 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-06 20:36:31,877 - alert_tesouro - INFO - Opening browser
+2015-12-06 20:36:31,880 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:36:32,436 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:36:32,655 - alert_tesouro - INFO - Getting tables from html
+2015-12-06 20:36:32,656 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-06 20:36:32,717 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-06 20:36:32,731 - alert_tesouro - INFO - Check condition
+2015-12-06 20:36:32,735 - alert_tesouro - INFO - No bonds today!!
+2015-12-06 20:36:32,736 - alert_tesouro - INFO - Saving task in DB...
+2015-12-06 20:36:32,736 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-06 20:36:57,568 - alert_tesouro - INFO - Opening browser
+2015-12-06 20:36:57,571 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:36:58,943 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:36:59,061 - alert_tesouro - INFO - Getting tables from html
+2015-12-06 20:36:59,062 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-06 20:36:59,122 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-06 20:36:59,137 - alert_tesouro - INFO - Check condition
+2015-12-06 20:36:59,141 - alert_tesouro - INFO - No bonds today!!
+2015-12-06 20:36:59,141 - alert_tesouro - INFO - Saving task in DB...
+2015-12-06 20:36:59,141 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-06 20:38:47,614 - alert_tesouro - INFO - Opening browser
+2015-12-06 20:38:47,643 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:38:48,382 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-06 20:38:48,531 - alert_tesouro - INFO - Getting tables from html
+2015-12-06 20:38:48,532 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-06 20:38:48,593 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-06 20:38:48,608 - alert_tesouro - INFO - Check condition
+2015-12-06 20:38:48,612 - alert_tesouro - INFO - No bonds today!!
+2015-12-06 20:38:48,612 - alert_tesouro - INFO - Saving task in DB...
+2015-12-06 20:38:48,613 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-07 03:10:34,368 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:10:34,467 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:10:35,443 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:10:35,549 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:10:35,551 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:10:35,671 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-07 03:10:35,679 - alert_tesouro - INFO - Check condition
+2015-12-07 03:10:35,683 - alert_tesouro - INFO - No bonds today!!
+2015-12-07 03:10:35,683 - alert_tesouro - INFO - Saving task in DB...
+2015-12-07 03:10:35,684 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-07 03:11:47,853 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:11:47,855 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:11:48,761 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:11:48,862 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:11:48,862 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:11:48,890 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-07 03:11:48,902 - alert_tesouro - INFO - Check condition
+2015-12-07 03:11:48,906 - alert_tesouro - INFO - No bonds today!!
+2015-12-07 03:11:48,906 - alert_tesouro - INFO - Saving task in DB...
+2015-12-07 03:11:48,907 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-07 03:12:16,346 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:12:16,348 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:12:17,380 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:12:17,485 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:12:17,485 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:12:17,514 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-07 03:12:17,526 - alert_tesouro - INFO - Check condition
+2015-12-07 03:12:17,531 - alert_tesouro - INFO - No bonds today!!
+2015-12-07 03:12:17,531 - alert_tesouro - INFO - Saving task in DB...
+2015-12-07 03:12:17,532 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-07 03:12:44,867 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:12:44,868 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:12:45,434 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:12:45,537 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:12:45,538 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:12:45,564 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-07 03:12:45,575 - alert_tesouro - INFO - Check condition
+2015-12-07 03:12:45,578 - alert_tesouro - INFO - No bonds today!!
+2015-12-07 03:12:45,578 - alert_tesouro - INFO - Saving task in DB...
+2015-12-07 03:12:45,579 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-07 03:14:22,901 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:14:22,903 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:14:24,025 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:14:24,135 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:14:24,136 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:14:24,162 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-07 03:14:24,174 - alert_tesouro - INFO - Check condition
+2015-12-07 03:14:24,178 - alert_tesouro - INFO - No bonds today!!
+2015-12-07 03:14:24,178 - alert_tesouro - INFO - Saving task in DB...
+2015-12-07 03:14:24,179 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-07 03:15:03,073 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:15:03,074 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:15:04,086 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:15:04,215 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:15:04,216 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:15:04,240 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-07 03:15:04,242 - alert_tesouro - INFO -                                                Compra      Venda   Compra.1  \
+1      Tesouro IPCA+ com Juros Semestrais 2017 (NTNB) 2017-05-15 2015-12-07   
+4      Tesouro IPCA+ com Juros Semestrais 2024 (NTNB) 2024-08-15 2015-12-07   
+8      Tesouro IPCA+ com Juros Semestrais 2045 (NTNB) 2045-05-15 2015-12-07   
+11                       Tesouro Prefixado 2016 (LTN) 2016-01-01 2015-12-07   
+12  Tesouro Prefixado com Juros Semestrais 2017 (N... 2017-01-01 2015-12-07   
+13                       Tesouro Prefixado 2017 (LTN) 2017-01-01 2015-12-07   
+16  Tesouro Prefixado com Juros Semestrais 2021 (N... 2021-01-01 2015-12-07   
+17  Tesouro Prefixado com Juros Semestrais 2023 (N... 2023-01-01 2015-12-07   
+20                           Tesouro Selic 2017 (LFT) 2017-07-03 2015-12-07   
+
+    Venda.1 Unnamed: 4  Unnamed: 5  taxa  
+1       667     R$0,00  R$2.734,65     0  
+4       735     R$0,00  R$2.573,31     0  
+8       722     R$0,00  R$2.365,99     0  
+11     1424     R$0,00    R$990,53     0  
+12     1571     R$0,00    R$990,79     0  
+13     1569     R$0,00    R$855,92     0  
+16     1569     R$0,00    R$859,03     0  
+17     1565     R$0,00    R$817,95     0  
+20        2     R$0,00  R$7.336,41     0  
+2015-12-07 03:15:04,271 - alert_tesouro - INFO - Check condition
+2015-12-07 03:15:04,274 - alert_tesouro - INFO - No bonds today!!
+2015-12-07 03:15:04,275 - alert_tesouro - INFO - Saving task in DB...
+2015-12-07 03:15:04,275 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-07 03:21:08,037 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:21:08,039 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:21:08,725 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:21:08,816 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:21:08,817 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:21:08,845 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-07 03:24:14,803 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:24:14,805 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:24:15,706 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:24:15,815 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:24:15,816 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:24:39,080 - alert_tesouro - INFO - Opening browser
+2015-12-07 03:24:39,081 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:24:39,737 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-07 03:24:39,836 - alert_tesouro - INFO - Getting tables from html
+2015-12-07 03:24:39,837 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-07 03:24:39,864 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 16:12:43,252 - alert_tesouro - INFO - Opening browser
+2015-12-11 16:12:43,402 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:12:45,244 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:12:45,376 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 16:12:45,378 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 16:12:45,527 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 16:13:51,905 - alert_tesouro - INFO - Opening browser
+2015-12-11 16:13:51,905 - alert_tesouro - INFO - Opening browser
+2015-12-11 16:13:51,909 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:13:51,909 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:13:53,091 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:13:53,091 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:13:53,229 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 16:13:53,229 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 16:13:53,232 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 16:13:53,232 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 16:14:34,329 - alert_tesouro - INFO - Opening browser
+2015-12-11 16:14:34,329 - alert_tesouro - INFO - Opening browser
+2015-12-11 16:14:34,337 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:14:34,337 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:14:35,369 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:14:35,369 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:14:35,506 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 16:14:35,506 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 16:14:35,509 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 16:14:35,509 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 16:15:05,392 - alert_tesouro - INFO - Opening browser
+2015-12-11 16:15:05,396 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:15:06,408 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 16:15:06,546 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 16:15:06,548 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 16:16:19,602 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 16:16:41,725 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 16:17:32,924 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:37:33,418 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:38:28,365 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:39:23,987 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:39:56,512 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:41:43,176 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:42:02,893 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:43:51,628 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 18:47:12,736 - alert_tesouro - INFO -         titulo vencimento    taxa
+1   NTNB Princ 2019-05-15  0.0752
+2         NTNB 2020-08-15  0.0746
+3   NTNB Princ 2024-08-15  0.0735
+4         NTNB 2035-05-15  0.0728
+5   NTNB Princ 2035-05-15  0.0727
+6         NTNB 2050-08-15  0.0705
+8          LTN 2018-01-01  0.1630
+9          LTN 2021-01-01  0.1596
+10        NTNF 2025-01-01  0.1587
+12         LFT 2021-01-03  0.0000
+2015-12-11 18:47:12,766 - alert_tesouro - INFO - Check condition
+2015-12-11 19:03:19,812 - alert_tesouro - INFO - Opening browser
+2015-12-11 19:03:19,814 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:03:20,734 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:03:20,931 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 19:03:20,932 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 19:03:20,959 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 19:14:51,561 - alert_tesouro - INFO - Opening browser
+2015-12-11 19:14:51,562 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:14:52,740 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:14:52,958 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 19:14:52,960 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 19:14:52,985 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 19:15:15,772 - alert_tesouro - INFO - Opening browser
+2015-12-11 19:15:15,774 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:15:16,496 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:15:16,645 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 19:15:16,647 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 19:15:16,671 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 19:15:16,677 - alert_tesouro - INFO -    titulo vencimento  taxa
+1    NTNB 2017-05-15     0
+4    NTNB 2024-08-15     0
+8    NTNB 2045-05-15     0
+11    LTN 2016-01-01     0
+12   NTNF 2017-01-01     0
+13    LTN 2017-01-01     0
+16   NTNF 2021-01-01     0
+17   NTNF 2023-01-01     0
+20    LFT 2017-07-03     0
+2015-12-11 19:15:16,684 - alert_tesouro - INFO - Check condition
+2015-12-11 19:15:16,721 - alert_tesouro - INFO - No bonds today!!
+2015-12-11 19:15:16,721 - alert_tesouro - INFO - Saving task in DB...
+2015-12-11 19:15:16,757 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-11 19:17:39,006 - alert_tesouro - INFO - Opening browser
+2015-12-11 19:17:39,009 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:17:41,232 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-11 19:17:41,462 - alert_tesouro - INFO - Getting tables from html
+2015-12-11 19:17:41,463 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-11 19:17:41,488 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-11 19:17:41,494 - alert_tesouro - INFO -    titulo vencimento  taxa
+1    NTNB 2017-05-15     0
+4    NTNB 2024-08-15     0
+8    NTNB 2045-05-15     0
+11    LTN 2016-01-01     0
+12   NTNF 2017-01-01     0
+13    LTN 2017-01-01     0
+16   NTNF 2021-01-01     0
+17   NTNF 2023-01-01     0
+20    LFT 2017-07-03     0
+2015-12-11 19:17:41,501 - alert_tesouro - INFO - Check condition
+2015-12-11 19:17:41,505 - alert_tesouro - INFO - No bonds today!!
+2015-12-11 19:17:41,505 - alert_tesouro - INFO - Saving task in DB...
+2015-12-11 19:17:41,506 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-20 01:38:12,803 - alert_tesouro - INFO - Opening browser
+2015-12-20 01:38:12,838 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 01:38:13,232 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 01:38:13,370 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 01:38:13,371 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 01:38:13,538 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 01:38:13,551 - alert_tesouro - INFO -    titulo vencimento  taxa
+1    NTNB 2017-05-15     0
+4    NTNB 2024-08-15     0
+8    NTNB 2045-05-15     0
+11    LTN 2016-01-01     0
+12   NTNF 2017-01-01     0
+13    LTN 2017-01-01     0
+16   NTNF 2021-01-01     0
+17   NTNF 2023-01-01     0
+20    LFT 2017-07-03     0
+2015-12-20 01:38:13,557 - alert_tesouro - INFO - Check condition
+2015-12-20 01:38:13,573 - alert_tesouro - INFO - No bonds today!!
+2015-12-20 01:38:13,573 - alert_tesouro - INFO - Saving task in DB...
+2015-12-20 01:38:13,644 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-20 01:51:05,169 - alert_tesouro - INFO - Opening browser
+2015-12-20 01:51:05,170 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 01:51:05,526 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 01:51:05,631 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 01:51:05,632 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 01:51:05,664 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 01:51:05,671 - alert_tesouro - INFO -    titulo vencimento  taxa
+1    NTNB 2017-05-15     0
+4    NTNB 2024-08-15     0
+8    NTNB 2045-05-15     0
+11    LTN 2016-01-01     0
+12   NTNF 2017-01-01     0
+13    LTN 2017-01-01     0
+16   NTNF 2021-01-01     0
+17   NTNF 2023-01-01     0
+20    LFT 2017-07-03     0
+2015-12-20 01:51:05,677 - alert_tesouro - INFO - Check condition
+2015-12-20 01:51:05,681 - alert_tesouro - INFO - No bonds today!!
+2015-12-20 01:51:05,681 - alert_tesouro - INFO - Saving task in DB...
+2015-12-20 01:51:05,682 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-20 02:02:55,629 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:02:55,631 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:02:56,401 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:02:56,533 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:02:56,535 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:02:56,568 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:02:56,575 - alert_tesouro - INFO - Check condition
+2015-12-20 02:02:56,581 - alert_tesouro - INFO - No bonds today!!
+2015-12-20 02:02:56,582 - alert_tesouro - INFO - Saving task in DB...
+2015-12-20 02:02:56,582 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-20 02:03:08,729 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:03:08,731 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:03:09,265 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:03:09,371 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:03:09,371 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:03:09,402 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:03:09,408 - alert_tesouro - INFO - Check condition
+2015-12-20 02:03:09,412 - alert_tesouro - INFO - No bonds today!!
+2015-12-20 02:03:09,412 - alert_tesouro - INFO - Saving task in DB...
+2015-12-20 02:03:09,413 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-20 02:03:54,120 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:03:54,122 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:03:54,655 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:03:54,793 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:03:54,794 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:03:54,826 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:03:54,833 - alert_tesouro - INFO - Check condition
+2015-12-20 02:03:54,837 - alert_tesouro - INFO - No bonds today!!
+2015-12-20 02:03:54,837 - alert_tesouro - INFO - Saving task in DB...
+2015-12-20 02:03:54,838 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-20 02:15:45,042 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:15:45,044 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:15:46,131 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:15:46,241 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:15:46,243 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:15:46,276 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:16:44,245 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:16:44,246 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:16:44,685 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:16:44,848 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:16:44,849 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:16:44,882 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:17:01,384 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:17:01,386 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:17:01,998 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:17:02,382 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:17:02,383 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:17:02,415 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:17:02,422 - alert_tesouro - INFO - Check condition
+2015-12-20 02:17:02,426 - alert_tesouro - INFO - No bonds today!!
+2015-12-20 02:17:02,426 - alert_tesouro - INFO - Saving task in DB...
+2015-12-20 02:17:11,860 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:17:11,861 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:17:12,379 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:17:12,510 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:17:12,511 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:17:12,543 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:17:12,549 - alert_tesouro - INFO - Check condition
+2015-12-20 02:17:12,552 - alert_tesouro - INFO - No bonds today!!
+2015-12-20 02:17:12,552 - alert_tesouro - INFO - Saving task in DB...
+2015-12-20 02:17:12,553 - alert_tesouro - INFO - Successfully inserted in database!
+2015-12-20 02:17:40,429 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:17:40,437 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:17:41,371 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:17:41,498 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:17:41,500 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:17:44,260 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-20 02:17:53,513 - alert_tesouro - INFO -    titulo vencimento  taxa
+1    NTNB 2017-05-15     0
+4    NTNB 2024-08-15     0
+8    NTNB 2045-05-15     0
+11    LTN 2016-01-01     0
+12   NTNF 2017-01-01     0
+13    LTN 2017-01-01     0
+16   NTNF 2021-01-01     0
+17   NTNF 2023-01-01     0
+20    LFT 2017-07-03     0
+2015-12-20 02:17:53,559 - alert_tesouro - INFO - Check condition
+2015-12-20 02:19:21,727 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:19:22,029 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:19:22,578 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:19:22,684 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:19:22,686 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:22:00,237 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:22:00,240 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:22:00,850 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:22:00,991 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:22:00,993 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:27:52,349 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:27:52,353 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:27:53,639 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:27:53,832 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:27:53,839 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:29:41,183 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:29:41,189 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:29:41,987 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:29:42,097 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:29:42,100 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 02:29:43,561 - alert_tesouro - INFO - Opening browser
+2015-12-20 02:29:43,566 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:29:44,280 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 02:29:44,404 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 02:29:44,407 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 13:23:54,825 - alert_tesouro - INFO - Opening browser
+2015-12-20 13:23:54,863 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:23:55,606 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:23:55,717 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 13:23:55,719 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 13:24:39,020 - alert_tesouro - INFO - Opening browser
+2015-12-20 13:24:39,024 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:24:39,897 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:24:40,376 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 13:24:40,379 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 13:24:56,977 - alert_tesouro - INFO - Opening browser
+2015-12-20 13:24:56,981 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:24:57,780 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:24:58,094 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 13:24:58,097 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 13:33:25,081 - alert_tesouro - INFO - Opening browser
+2015-12-20 13:33:25,387 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:33:25,695 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:33:25,955 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 13:33:25,957 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 13:35:36,797 - alert_tesouro - INFO - Opening browser
+2015-12-20 13:35:36,800 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:35:37,903 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:35:38,099 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 13:35:38,101 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-20 13:38:18,265 - alert_tesouro - INFO - Opening browser
+2015-12-20 13:38:18,298 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:38:18,615 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-20 13:38:18,807 - alert_tesouro - INFO - Getting tables from html
+2015-12-20 13:38:18,809 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-24 19:20:42,889 - alert_tesouro - INFO - Opening browser
+2015-12-24 19:20:42,959 - alert_tesouro - INFO - Opening url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-24 19:20:43,580 - alert_tesouro - INFO - Reading url: http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos
+2015-12-24 19:20:44,054 - alert_tesouro - INFO - Getting tables from html
+2015-12-24 19:20:44,055 - alert_tesouro - INFO - Importing html tables to Pandas
+2015-12-24 19:20:44,251 - alert_tesouro - INFO - Correcting Bond Yields
+2015-12-24 19:20:44,260 - alert_tesouro - INFO - Check condition
+2015-12-24 19:20:44,272 - alert_tesouro - INFO - No bonds today!!
+2015-12-24 19:20:44,272 - alert_tesouro - INFO - Saving task in DB...
+2015-12-24 19:20:44,334 - alert_tesouro - INFO - Successfully inserted in database!
