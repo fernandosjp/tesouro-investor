@@ -1,0 +1,7 @@
+mechanize
+BeautifulSoup
+IPython
+pandas
+sqlite3
+logging
+datetime

@@ -38,6 +38,9 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 logger.addHandler(eh)
 
+#Define Rules to 
+alertRule = {"NTN-B":0.0735
+			 "LTN":0.16}
 
 def convertToInt(x):
 	"""
