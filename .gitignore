@@ -1,0 +1,5 @@
+# Logging files:
+*.log
+
+# config file
+config.yml
