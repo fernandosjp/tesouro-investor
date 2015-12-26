@@ -3,3 +3,9 @@
 
 # config file
 config.yml
+
+# Files created by Sublime
+*.pyc
+
+# Database 
+*.sqlite
