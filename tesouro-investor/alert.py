@@ -1,13 +1,5 @@
 #!/home/fernandosjp/anaconda/bin/python
 
-# Bond Scrapper
-from lxml.html import parse
-from lxml import etree
-from urllib2 import urlopen
-from pandas.io.parsers import TextParser
-# Crawler
-import mechanize
-from BeautifulSoup import BeautifulSoup
 # Visualization
 from IPython.display import display, HTML
 # Data
@@ -19,9 +11,8 @@ from emailSender import *
 import logging
 #Others
 import datetime
-#Regexp 
-import re 
 import json
+from  scrapper import BondScrapper
 
 #Logging
 # create logger with 'alert tesouro'
@@ -57,39 +48,6 @@ class Alert(object):
 		with open('alerts.json') as json_data_file:
 		    self.alerts = json.load(json_data_file)
 
-
-	def _unpack(self, row, kind='td'):
-		elts = row.findall('.//%s' % kind)
-		return [val.text_content() for val in elts]
-
-	def parse_options_data(self, table):
-		rows = table.findall('.//tr')
-		#TODO: understand how to make header parser generic
-		#header = _unpack(rows[0], kind='th')
-		header = ['titulo','vencimento','taxa_compra','taxa_venda','preco_compra','preco_venda']
-		data = [self._unpack(r) for r in rows[2:]]
-		return TextParser(data, names=header).get_chunk()
-
-	def convertToInt(self, x):
-		"""
-		Function to convert yield to integer
-		"""
-		try:
-			x=float(x)/10000
-		except Exception, e:
-			x=0
-		return x
-
-	def extractBondName(self, x):
-	    searchString = re.search(r"\(([^)]+)\)", str(x))
-	    bondName=""
-	    try:
-	        bondName = searchString.group(1)
-	    except:
-	        pass
-	    
-	    return bondName
-
 	def saveTask(self, emailSent):
 		# Connecting to the database file
 		sqlite_file = 'alertInvest.sqlite'  
@@ -108,32 +66,6 @@ class Alert(object):
 		conn.close()
 
 		return None
-
-	def getBondTable(self):
-		"""
-		Opens url and returns bond table in a Data Frame with the columns [titulo,vencimento,taxas]
-		-----
-
-		Return Data Frame
-		
-		"""
-		#Open a browser
-		url='http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos'
-		logger.info('Opening url: {}'.format(url))
-		parsed = parse(urlopen('http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos'))
-		doc = parsed.getroot()
-		tables = doc.findall('.//table')
-
-		df = self.parse_options_data(tables[1])
-		df.dropna(inplace=True)
-
-		logger.info('Correcting Bond Yields')
-		df['taxa'] = df.apply(lambda row: self.convertToInt(row['taxa_compra']), axis=1)
-		df['titulo'] = df.apply(lambda row: self.extractBondName(row['titulo']), axis=1)
-		
-		columns = ['titulo','vencimento','taxa_compra']
-
-		return df[columns]
 
 	def sendEmailAlert(self, df):
 
@@ -174,8 +106,9 @@ class Alert(object):
 		return None
 
 	def run(self):
-
-		self.bonds_table = self.getBondTable()
+        
+		scrapper = BondScrapper()
+		self.bonds_table = scrapper.getBondTable()
 
 		for alert in self.alerts:
 			self.alert_trigger(alert)
