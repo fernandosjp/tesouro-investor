@@ -2,14 +2,15 @@
 
 ## Configuration
 
-Run cron.sh to include cron
+1. `pip install tesouro-investor`
+1. Create DB
+1. Run cron.sh to include cron
 
 ### Useful Cron Tab commands
 * **Set up crontab:** crontab -e
 * **Show crontab:** crontab -l 
 
 ### Next Steps
-* isolate class bondScrapper
 * Have alerts by bond type
 * load yml config for e-mail params
 * load alerts.json from root
