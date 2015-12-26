@@ -1,5 +1,10 @@
 #!/home/fernandosjp/anaconda/bin/python
 
+# Bond Scrapper
+from lxml.html import parse
+from lxml import etree
+from urllib2 import urlopen
+from pandas.io.parsers import TextParser
 # Crawler
 import mechanize
 from BeautifulSoup import BeautifulSoup
@@ -52,6 +57,19 @@ class Alert(object):
 		with open('alerts.json') as json_data_file:
 		    self.alerts = json.load(json_data_file)
 
+
+	def _unpack(self, row, kind='td'):
+		elts = row.findall('.//%s' % kind)
+		return [val.text_content() for val in elts]
+
+	def parse_options_data(self, table):
+		rows = table.findall('.//tr')
+		#TODO: understand how to make header parser generic
+		#header = _unpack(rows[0], kind='th')
+		header = ['titulo','vencimento','taxa_compra','taxa_venda','preco_compra','preco_venda']
+		data = [self._unpack(r) for r in rows[2:]]
+		return TextParser(data, names=header).get_chunk()
+
 	def convertToInt(self, x):
 		"""
 		Function to convert yield to integer
@@ -100,37 +118,20 @@ class Alert(object):
 		
 		"""
 		#Open a browser
-		logger.info('Opening browser')
-		br = mechanize.Browser()
-		br.addheaders = [('User-agent', 'Firefox')]
-		br.set_handle_robots(False)
-
-		#Open a url
 		url='http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos'
 		logger.info('Opening url: {}'.format(url))
-		page = br.open(url)
+		parsed = parse(urlopen('http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos'))
+		doc = parsed.getroot()
+		tables = doc.findall('.//table')
 
-		logger.info('Reading url: {}'.format(url))
-		html = page.read()
-		soup = BeautifulSoup(html)
-
-		logger.info('Getting tables from html')
-		tables = soup.findAll("table")
-
-		logger.info('Importing html tables to Pandas')
-		dfList = pd.read_html(str(tables[1]), header=True)
-
-		df = dfList[0]
+		df = self.parse_options_data(tables[1])
 		df.dropna(inplace=True)
-		print df
-		logger.info('Correcting Bond Yields')
-		df['taxa'] = df.apply(lambda row: self.convertToInt(row['Compra.1']), axis=1)
-		df['titulo'] = df.apply(lambda row: self.extractBondName(row['Compra']), axis=1)
 
-		rename = {'Venda':'vencimento'}
-		df.rename(columns=rename, inplace=True)
+		logger.info('Correcting Bond Yields')
+		df['taxa'] = df.apply(lambda row: self.convertToInt(row['taxa_compra']), axis=1)
+		df['titulo'] = df.apply(lambda row: self.extractBondName(row['titulo']), axis=1)
 		
-		columns = ['titulo','vencimento','taxa']
+		columns = ['titulo','vencimento','taxa_compra']
 
 		return df[columns]
 
@@ -154,7 +155,7 @@ class Alert(object):
 		emailSent = False
 		
 		#TODO: taxas vindo zeradas
-		if not self.bonds_table.query("taxa>=0.14").empty:
+		if not self.bonds_table.query("taxa_compra>=0.14").empty:
 			logger.info('Condition satisfied!!')
 			try:
 				logger.info('Sending Email...')
