@@ -2,7 +2,7 @@
     "alerts":[{
         "bound_name":"NTNB",
         "expiration":"2035",
-        "yield":"15.0"
+        "yield":"8.0"
     },
     {
         "bound_name":"LTN",
