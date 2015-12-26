@@ -39,7 +39,7 @@ logger.addHandler(eh)
 
 class Alert(object):
 	"""
-
+	Alert class is responsible for looping into predefined alerts and sending e-mails.
 	"""
 	def __init__(self, alerts):
 		"""
@@ -82,12 +82,13 @@ class Alert(object):
 
 	def alert_trigger(self, alert):
 		
-		logger.info('Check condition')
+		logger.info('Check condition: bond {BOND} and yield {YIELD}'.format(BOND = alert['bound_name'], YIELD = alert['yield']))
 		
 		emailSent = False
-		
+
 		#TODO: taxas vindo zeradas
-		if not self.bonds_table.query("taxa_compra>=0.14").empty:
+		if not self.bonds_table.query("(taxa_compra>={YIELD}) and (titulo=='{BOND}') ".format(YIELD = alert['yield'],
+																							BOND = alert['bound_name'])).empty:
 			logger.info('Condition satisfied!!')
 			try:
 				logger.info('Sending Email...')
@@ -110,7 +111,7 @@ class Alert(object):
 		scrapper = BondScrapper()
 		self.bonds_table = scrapper.getBondTable()
 
-		for alert in self.alerts:
+		for alert in self.alerts['alerts']:
 			self.alert_trigger(alert)
 
 if __name__ == "__main__":
