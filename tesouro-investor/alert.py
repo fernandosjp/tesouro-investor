@@ -6,7 +6,7 @@ from IPython.display import display, HTML
 import pandas as pd
 import sqlite3
 # Emails
-from emailSender import *
+from emailSender.sendMail import Email
 # Logging
 import logging
 #Others
@@ -69,6 +69,7 @@ class Alert(object):
 
 	def sendEmailAlert(self, df):
 
+		email = Email('config.yml')
 		to = ['REMOVED',
 			  #'REMOVED'
 		]
@@ -76,7 +77,7 @@ class Alert(object):
 		subject = "[Tesouro Direto] Alerta COMPRA TUDO - LTN >= 16%"
 		msgText=df.to_html()
 
-		sendMail.sendEmail(subject, msgText, to, sender = 'Tesouro Invest')
+		email.sendEmail(subject, msgText, to, sender = 'Tesouro Invest')
 
 		return None
 
