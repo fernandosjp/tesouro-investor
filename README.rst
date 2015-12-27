@@ -33,6 +33,7 @@ Next Steps
 	* Finish setup.cfg
 	* Finish README.rst
 * implement cli with argparse
+* support python 3
 * load alerts.json from root
 * treat "No internet connection" Exception
 * add README.rst
