@@ -13,9 +13,24 @@ To install the tool the easiest way is to use pip::
 Configuration
 -------------
 
-1. `pip install tesouro-investor` (not yet)
-1. Create DB
-1. Run cron.sh to include cron
+config.yml sample:
+
+.. code-block:: YAML
+
+    # SMTP settings for email sending. If port is not specified, the default
+    # value is 25. Provide the username and password if necessary.
+    smtp:
+        server: "mail.mydomain.com"
+        port: 587
+        username: "user"
+        password: "secret"
+
+        from: "me@mydomain.com"
+        to: "you@yourdomain.com"
+
+
+* Create DB
+* Run cron.sh to include default cron
 
 Configuring Crontab
 ^^^^^^^^^^^^^^^^^^^
