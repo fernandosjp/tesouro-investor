@@ -20,3 +20,4 @@
 * add setup.py
 * use jinja2 to send e-mails
 * treat "No internet connection" Exception
+* tests for exceptions in Email send process
