@@ -75,14 +75,11 @@ class Alert(object):
 	def sendEmailAlert(self, df):
 
 		email = Email(self.config['smtp'])
-		to = ['REMOVED',
-			  #'REMOVED'
-		]
 		msgText = ""
 		subject = "[Tesouro Direto] Alerta COMPRA TUDO - LTN >= 16%"
 		msgText=df.to_html()
 
-		email.sendEmail(subject, msgText, to, sender = 'Tesouro Invest')
+		email.sendEmail(subject, msgText, sender = 'Tesouro Invest')
 
 		return None
 

@@ -14,7 +14,7 @@ class Email(object):
     def __init__(self, config):
         self.config = config
         
-    def sendEmail(self, subject, msgText, to, sender = 'Standard Sender', imgNames=None, imagesInMsgBody = False, replyTo=None, maxWidth="600px"):
+    def sendEmail(self, subject, msgText, sender = 'Standard Sender', imgNames=None, imagesInMsgBody = False, replyTo=None, maxWidth="600px"):
         """
         Sends an e-mail with or without images attached.
 
@@ -73,7 +73,7 @@ class Email(object):
             conn.set_debuglevel(False)
             conn.login(self.config['username'],self.config['password'])
             try:
-                conn.sendmail(sender, to, msg.as_string())
+                conn.sendmail(sender, self.config['to'], msg.as_string())
             finally:
                 conn.close()
         except:
