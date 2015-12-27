@@ -72,12 +72,12 @@ class Alert(object):
 
 		return None
 
-	def sendEmailAlert(self, df):
+	def sendEmailAlert(self):
 
 		email = Email(self.config['smtp'])
 		msgText = ""
-		subject = "[Tesouro Direto] Alerta COMPRA TUDO - LTN >= 16%"
-		msgText=df.to_html()
+		subject = "[Tesouro Direto] Alerta COMPRA TUDO - {}".format(self.alertQuery)
+		msgText=self.bonds_table.to_html()
 
 		email.sendEmail(subject, msgText, sender = 'Tesouro Invest')
 
@@ -87,15 +87,15 @@ class Alert(object):
 		
 		logger.info('Check condition: bond {BOND} and yield {YIELD}'.format(BOND = alert['bound_name'], YIELD = alert['yield']))
 		
+		self.alertQuery = "(taxa>={YIELD}) and (titulo=='{BOND}') ".format(YIELD = alert['yield'],
+																		   BOND = alert['bound_name'])
 		emailSent = False
 
-		#TODO: taxas vindo zeradas
-		if not self.bonds_table.query("(taxa>={YIELD}) and (titulo=='{BOND}') ".format(YIELD = alert['yield'],
-																							BOND = alert['bound_name'])).empty:
+		if not self.bonds_table.query(self.alertQuery).empty:
 			logger.info('Condition satisfied!!')
 			try:
 				logger.info('Sending Email...')
-				sendEmailAlert(df)	
+				sendEmailAlert()	
 			except Exception, e:
 				logger.info('Email not sent...')
 			finally:
