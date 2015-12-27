@@ -1,7 +1,10 @@
-mechanize
-BeautifulSoup
-IPython
 pandas
 sqlite3
 logging
 datetime
+yaml
+json
+urllib2
+re
+lxml
+email
