@@ -90,7 +90,7 @@ class Alert(object):
 		emailSent = False
 
 		#TODO: taxas vindo zeradas
-		if not self.bonds_table.query("(taxa_compra>={YIELD}) and (titulo=='{BOND}') ".format(YIELD = alert['yield'],
+		if not self.bonds_table.query("(taxa>={YIELD}) and (titulo=='{BOND}') ".format(YIELD = alert['yield'],
 																							BOND = alert['bound_name'])).empty:
 			logger.info('Condition satisfied!!')
 			try:

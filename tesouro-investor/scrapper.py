@@ -42,7 +42,7 @@ class BondScrapper(object):
 		Function to convert yield to integer
 		"""
 		try:
-			x=float(x)/10000
+			x=float(x.replace(',','.'))
 		except Exception, e:
 			x=0
 		return x
@@ -79,7 +79,7 @@ class BondScrapper(object):
 		df['taxa'] = df.apply(lambda row: self.__convertToInt(row['taxa_compra']), axis=1)
 		df['titulo'] = df.apply(lambda row: self.__extractBondName(row['titulo']), axis=1)
 		
-		columns = ['titulo','vencimento','taxa_compra']
+		columns = ['titulo','vencimento','taxa']
 
 		return df[columns]
 
