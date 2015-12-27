@@ -95,9 +95,10 @@ class Alert(object):
 			logger.info('Condition satisfied!!')
 			try:
 				logger.info('Sending Email...')
-				sendEmailAlert()	
+				self.sendEmailAlert()	
 			except Exception, e:
 				logger.info('Email not sent...')
+				raise e
 			finally:
 				emailSent = True
 				logger.info('Email sent!')
@@ -107,7 +108,7 @@ class Alert(object):
 		logger.info('Saving task in DB...')
 		self.saveTask(emailSent)
 
-		return None
+		return None		
 
 	def run(self):
         

@@ -9,10 +9,26 @@ from email.MIMEBase import MIMEBase
 from email import Encoders
 from email import encoders
 from email.utils import COMMASPACE, formatdate
+# Logging
+import logging
+
+#Logging
+# create logger with 'alert tesouro'
+logger = logging.getLogger('alert_tesouro')
+logger.setLevel(logging.DEBUG)
+# create console handler with a higher log level
+ch = logging.StreamHandler()
+ch.setLevel(logging.INFO)
+# create formatter and add it to the handlers
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+ch.setFormatter(formatter)
+# add the handlers to the logger
+logger.addHandler(ch)
 
 class Email(object):
     def __init__(self, config):
         self.config = config
+        logger.info("Config: {}".format(self.config))
         
     def sendEmail(self, subject, msgText, sender = 'Standard Sender', imgNames=None, imagesInMsgBody = False, replyTo=None, maxWidth="600px"):
         """
@@ -31,14 +47,14 @@ class Email(object):
         
 
         """
-        
+    
         try:
-            conn = SMTP('smtp.gmail.com', 587)
+            conn = SMTP(self.config['server'], self.config['port'])
 
             msg = MIMEMultipart()
             msg['Subject']= subject
             msg['From']   = sender
-            msg['cc'] = ', '.join(to)
+            msg['cc'] = ', '.join(self.config['to'])
 
             if replyTo:
                 msg['reply-to'] = replyTo
