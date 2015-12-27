@@ -71,7 +71,7 @@ class Email(object):
             conn.ehlo()
             conn.starttls()
             conn.set_debuglevel(False)
-            conn.login('REMOVED','REMOVED')
+            conn.login(self.config['username'],self.config['password'])
             try:
                 conn.sendmail(sender, to, msg.as_string())
             finally:

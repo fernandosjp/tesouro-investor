@@ -12,6 +12,7 @@ import logging
 #Others
 import datetime
 import json
+import yaml
 from  scrapper import BondScrapper
 
 #Logging
@@ -45,8 +46,12 @@ class Alert(object):
 		"""
 		import alerts
 		"""
-		with open('alerts.json') as json_data_file:
+		with open(alerts) as json_data_file:
 		    self.alerts = json.load(json_data_file)
+
+		# Load configuration
+		with open('config.yml', 'r') as f:
+			self.config = yaml.safe_load(f)
 
 	def saveTask(self, emailSent):
 		# Connecting to the database file
@@ -69,7 +74,7 @@ class Alert(object):
 
 	def sendEmailAlert(self, df):
 
-		email = Email('config.yml')
+		email = Email(self.config['smtp'])
 		to = ['REMOVED',
 			  #'REMOVED'
 		]
