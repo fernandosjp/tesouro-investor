@@ -1,7 +1,5 @@
 #!/home/fernandosjp/anaconda/bin/python
 
-# Visualization
-from IPython.display import display, HTML
 # Data
 import pandas as pd
 import sqlite3
