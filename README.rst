@@ -43,15 +43,15 @@ You can configure crontab to call the program above. This way you can have a aut
 Next Steps
 -------------
 
+* start using issues instead of readme lol
 * organize structure to publish in pypi
 	* Finish setup.py
 	* Finish setup.cfg
 	* Finish README.rst
 * implement cli with argparse
 * support python 3
-* load alerts.json from root
+* load alerts.json from root (include in MANIFEST.in)
 * treat "No internet connection" Exception
-* add README.rst
 * add setup.py
 * use jinja2 to send e-mails
 * tests for exceptions in Email send process
