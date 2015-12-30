@@ -1,7 +1,13 @@
 Tesouro Investor
 ==============
 
-Create alerts to help you monitor Tesouro Direto yield rates and help you to invest your money at the right time! This project starts as simple buy alerts but intents to evolve as a general support tool for Tesouro Direto investors.  
+This project starts as simple buy alerts but intents to evolve as a general support tool for Tesouro Direto investors.
+
+Package 1 - Alerts: Create alerts to help you to monitor Tesouro Direto yield rates and to invest your money at the right time! 
+
+Package 2 - Market Expectations (working): What to yield curves can tell us about market expectations regarding SELIC rates? 
+
+Package 3 - Manage your Portfolio (working): How much money are you making? What are the best bonds for you to sell?
 
 Installation
 ------------
@@ -13,7 +19,7 @@ To install the tool the easiest way is to use pip::
 Configuration
 -------------
 
-config.yml sample:
+config.yml sample with e-mail credentials:
 
 .. code-block:: YAML
 
@@ -30,13 +36,23 @@ config.yml sample:
 
 
 * Create DB
-* Run cron.sh to include default cron
 
-Configuring Crontab
+Usage
+-------------
+
+Invoke installed python module from terminal with the followign command: 
+
+    python -m tesouro_investor.alert -c config.yml
+
+Configuring Crontab (Linux)
 ^^^^^^^^^^^^^^^^^^^
 
 You can configure crontab to call the program above. This way you can have a automated email at the time and periodicity that you like.
 
+Add to crontab with bash script
+* Run cron.sh to include default cron
+
+Add manually using:
 * **Set up crontab:** crontab -e
 * **Show crontab:** crontab -l 
 
@@ -44,14 +60,13 @@ Next Steps
 -------------
 
 * start using issues instead of readme lol
+* implement cli with argparse or other
 * organize structure to publish in pypi
-	* Finish setup.py
-	* Finish setup.cfg
-	* Finish README.rst
-* implement cli with argparse
+    * Finish setup.py
+    * Finish setup.cfg
+    * Finish README.rst
 * support python 3
 * load alerts.json from root (include in MANIFEST.in)
 * treat "No internet connection" Exception
-* add setup.py
 * use jinja2 to send e-mails
 * tests for exceptions in Email send process
