@@ -36,19 +36,19 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 logger.addHandler(eh)
 
-class Alert(object):
+class Alerter(object):
 	"""
 	Alert class is responsible for looping into predefined alerts and sending e-mails.
 	"""
-	def __init__(self, alerts):
+	def __init__(self, alerts, config):
 		"""
-		import alerts
+		import alerts and config
 		"""
 		with open(alerts) as json_data_file:
 		    self.alerts = json.load(json_data_file)
 
 		# Load configuration
-		with open('config.yml', 'r') as f:
+		with open(config, 'r') as f:
 			self.config = yaml.safe_load(f)
 
 	def saveTask(self, emailSent):
@@ -108,18 +108,13 @@ class Alert(object):
 
 		return None		
 
-	def run(self):
+	def alert(self):
         
 		scrapper = BondScrapper()
 		self.bonds_table = scrapper.getBondTable()
 
 		for alert in self.alerts['alerts']:
 			self.alert_trigger(alert)
-
-if __name__ == "__main__":
-
-	alert = Alert('alerts.json')
-	alert.run()
 	
 
 
