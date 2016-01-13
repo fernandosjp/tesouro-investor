@@ -34,15 +34,32 @@ config.yml sample with e-mail credentials:
         from: "me@mydomain.com"
         to: "you@yourdomain.com"
 
+Set up your alerts in a alerts.json file in the following format:
+
+.. code-block:: javascript
+
+    {
+        "alerts":[{
+            "bound_name":"NTNB Princ",
+            "expiration":"2035", ##not used yet
+            "yield":"7.5"
+        },
+        {
+            "bound_name":"LTN",
+            "expiration":"2018", ##not used yet
+            "yield":"16.6"
+        }]
+    }
+
 
 * Create DB
 
 Usage
 -------------
 
-Invoke installed python module from terminal with the followign command: 
+Use cli interface to trigger aler command passing as arguments the `config.yml` and `alerts.json`
 
-    python -m tesouro_investor.alert -c config.yml
+    tinvest alert config.yml alerts.json
 
 Configuring Crontab (Linux)
 ^^^^^^^^^^^^^^^^^^^
@@ -55,18 +72,3 @@ Add to crontab with bash script
 Add manually using:
 * **Set up crontab:** crontab -e
 * **Show crontab:** crontab -l 
-
-Next Steps
--------------
-
-* start using issues instead of readme lol
-* implement cli with argparse or other
-* organize structure to publish in pypi
-    * Finish setup.py
-    * Finish setup.cfg
-    * Finish README.rst
-* support python 3
-* load alerts.json from root (include in MANIFEST.in)
-* treat "No internet connection" Exception
-* use jinja2 to send e-mails
-* tests for exceptions in Email send process
